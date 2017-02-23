@@ -16,6 +16,7 @@ var connector = useEmulator ? new builder.ChatConnector() : new botbuilder_azure
 
 var bot = new builder.UniversalBot(connector);
 
+// Hardcoded ID and subscriptionKey
 var recognizer = new builder_cognitiveservices.QnAMakerRecognizer({
                 knowledgeBaseId: '9af7f3bc-a476-40a1-935a-fcc506dacd7d', 
     subscriptionKey: '54cbe02c72c44474992584fbe58496ea'});
