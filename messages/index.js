@@ -23,7 +23,7 @@ var recognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 
 var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [recognizer],
-                defaultMessage: 'Sorry ¯\\' + '\_(ツ)_/¯, I didn\'t get that. Could you kindly rephrase your inquiry?',
+                defaultMessage: 'Oops, this question successfully exceeds my intellect. Try to ask something different, like: \n - Where can I find co-op opportunities? \n - What\'s the postal code of York University? \n - What\'s the open hour for Lassonde advisor? etc.',
                 qnaThreshold: 0.3}
 );
 
