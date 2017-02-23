@@ -23,7 +23,7 @@ var recognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 
 var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [recognizer],
-                defaultMessage: 'Oops, this question successfully exceeds my intellect. Try to ask something different, like: \n - Where can I find co-op opportunities? \n - What\'s the postal code of York University? \n - What\'s the open hour for Lassonde advisor? etc.',
+                defaultMessage: 'Oops, this question has exceeded my current intellect :( Why don\'t you wait for a human to answer that. Or you can type "help" to see what else I can do.',
                 qnaThreshold: 0.3}
 );
 
