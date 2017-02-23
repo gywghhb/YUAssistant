@@ -18,8 +18,8 @@ var bot = new builder.UniversalBot(connector);
 
 // Hardcoded ID and subscriptionKey
 var recognizer = new builder_cognitiveservices.QnAMakerRecognizer({
-                knowledgeBaseId: '9af7f3bc-a476-40a1-935a-fcc506dacd7d', 
-    subscriptionKey: '54cbe02c72c44474992584fbe58496ea'});
+                knowledgeBaseId: '62126a48-8de1-406b-884c-ebcb2b557746', 
+    subscriptionKey: '3d8e1d67b62143898a99464928d310e7'});
 
 var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [recognizer],
